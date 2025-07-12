@@ -33,16 +33,28 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+	text-decoration: underline;
+}
+
 main {
   display: flex;
-  padding: 20px;
+  padding: 20px 20px 20px 0;
   gap: 10px;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 10px;
+}
+
+.card:first-child {
+  flex: 0 0 60%;
+}
+
+.card:last-child {
+  flex: 0 0 40%;
 }
 
 .card > header {
@@ -55,6 +67,23 @@ main {
 
 .cardContent {
   margin: 10px;
+}
+
+.card:first-child .cardContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.card:first-child .cardContent p {
+  flex: 1;
+  margin: 0;
+}
+
+.profile-image {
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 
 footer {
@@ -75,4 +104,52 @@ h1 {
 } 
 h2 {
   color: #ffff1a;
-} 
+}
+
+.subtitle {
+  margin: 15px 10px 10px 10px;
+  color: #1d4d72;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.divider {
+  margin: 10px;
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.additional-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 10px;
+}
+
+.image-section {
+  flex: 0 0 150px;
+  text-align: center;
+}
+
+.background-image {
+  width: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.image-caption {
+  font-size: 0.85em;
+  color: #666;
+  margin: 5px 0 0 0;
+  font-style: italic;
+}
+
+.content-section {
+  flex: 1;
+}
+
+.content-section p {
+  margin: 0 0 10px 0;
+}

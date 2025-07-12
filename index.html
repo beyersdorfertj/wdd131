@@ -3,21 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <title>WDD131 - Welcome Page - Jörg Beyersdorfer</title>
+  <meta name="description" content="WDD131 - Dynamic Web Fundamentals; Thomas Jörg Beyersdorfer; Welcome Page"/>
+  <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
   <header>
-    Header Content
+    <div>
+      <h1>WDD 131: Dynamic Web Fundamentals - </h1>
+      <h2>Thomas Jörg Beyersdorfer</h2>
+    </div>
+    <nav>
+      <a href="https://www.linkedin.com/in/thomas-j%C3%B6rg-beyersdorfer-6b1b932">LinkedIn</a>
+      <a href="https://byupw.instructure.com/">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/luke/15?lang=deu&id=p11-p32#p11">Scripture</a>
+      <a>Final Project</a>
+    </nav>
   </header>
-  <nav>
-    <p>Home</p>
-    <p>Projects</p>
-    <p>Services</p>
-    <p>Contact Us</p>
-  </nav>
-  <main>Main Content</main>
-  <aside>Aside Content</aside>
-  <footer>Footer Content</footer>
+  <main>
+    <section class="card">
+      <header>About Me</header>
+      <div class="cardContent">
+        <p>Lorem ipsum dolor sit ameta, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <img src="images/profile25.jpg" alt="Profile picture" class="profile-image">
+      </div>
+      <h3 class="subtitle">My Background</h3>
+      <hr class="divider">
+      <div class="additional-content">
+        <div class="image-section">
+          <img src="images/germany-flag.webp" alt="Black, red, and gold horizontal stripes" class="background-image">
+          <p class="image-caption">German Flag</p>
+        </div>
+        <div class="content-section">
+          <p>Vorem ipsum faleris unda luctorem, sed quastor divino prelum, ut norendis tempor arcadium et laborex dolore magna ferantis. Ex enim foris veniam, quis lustram exercitus ullamco toren nisi ut ventor exea commodum relatus.</p>
+          <p>Tarnum equidem solestra, velit arcando numis et gravitas. Sint lorem fugiat nulla pariatur. Excepteur sint occaeca cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumus.</p>
+        </div>
+      </div>
+    </section>
+    <section class="card">
+      <header>Web Dev Resources</header>
+      <ul class="cardContent">
+        <li>Dev.to Community</li>
+        <li>Smashing Magazine</li>
+        <li>CSS Tricks</li>
+        <li>W3 Schools</li>
+        <li>Udemy</li>
+        <li>Image Placeholder</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>
+    <p id="lastModified" />
+  </footer>
 </body>
 </html>
