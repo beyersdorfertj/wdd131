@@ -9,15 +9,12 @@
   <meta name="author" content="Thomas Jörg Beyersdorfer">
   <link rel="stylesheet" href="styles/base.css">
   <title>WDD 131 - Dynamic Web Fundamentals - Jörg Beyersdorfer</title>
-  <meta name="description" content="WD 131 - Dynamic Web Fundamentals; Thomas Jörg Beyersdorfer; Welcome Page"/>
+  <meta name="description" content="WD 131 - Dynamic Web Fundamentals; Thomas Jörg Beyersdorfer; Landing Page"/>
   <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
   <header>
-    <div>
-      <h1><span id="course-title">WDD 131 – Dynamic Web Fundamentals -</span></h1>
-      <h2>Thomas Jörg Beyersdorfer</h2>
-    </div>
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
     <nav>
       <a href="https://www.linkedin.com/in/thomas-j%C3%B6rg-beyersdorfer-6b1b932">LinkedIn</a>
       <a href="https://byupw.instructure.com/">Canvas</a>
@@ -26,8 +23,10 @@
     </nav>
   </header>
   <main>
-    <section class="card">
-      <header>About Me</header>
+    <h1>Thomas Jörg Beyersdorfer</h1>
+    <div class="cards-container">
+      <section class="card">
+      <h2>About Me</h2>
       <div class="cardContent">
         <p>Lorem ipsum dolor sit ameta, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <img src="images/profile25.jpg" alt="Profile picture" class="profile-image">
@@ -46,7 +45,7 @@
       </div>
     </section>
     <section class="card">
-      <header>Web Dev Resources</header>
+      <h2>Web Dev Resources</h2>
       <ul class="cardContent">
         <li>Dev.to Community</li>
         <li>Smashing Magazine</li>
@@ -56,6 +55,7 @@
         <li>Image Placeholder</li>
       </ul>
     </section>
+    </div>
   </main>
   <footer>
     <p>&copy <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>
