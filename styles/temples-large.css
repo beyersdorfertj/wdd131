@@ -1,0 +1,30 @@
+@media only screen and (min-width: 35em) {
+    nav {
+        display: block;
+    }
+    
+    nav {
+        display: flex;
+        list-style: none;
+        height: 100%;
+    }
+
+    nav.show {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #menu {
+        display: none;
+    }
+
+    #album-title.show {
+        display: block;
+    }
+
+    #temple-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+}
