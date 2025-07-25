@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
+  <link rel="preload" href="images/frankfurt-temple-small.webp" as="image">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Thomas Jörg Beyersdorfer">
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+  <script src="scripts/place.js" defer></script>
+  <title>WDD 131 - Dynamic Web Fundamentals - Week 03 / Place - Thomas Jörg Beyersdorfer</title>
+  <meta name="description" content="WD 131 - Dynamic Web Fundamentals; Thomas Jörg Beyersdorfer; Landing Page for this course."/>
+</head>
+<body>
+    <header>
+        <h1>Friedrichsdorf / Germany</h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 1200px)" srcset="images/fdf-large8.webp">
+            <source media="(min-width: 768px)" srcset="images/fdf-medium8.webp">
+            <img src="images/frankfurt-temple-small.webp" alt="Friedrichsdorf Temple in traditional German architecture and green countryside" width="289" height="453">
+            
+            <div class="data">
+                <h2>Data</h2>
+                <table>
+                    <tr>
+                        <th>Area:</th><td>30.13 km²</td>
+                    </tr>
+                    <tr>
+                        <th>Population:</th><td>25,000</td>
+                    </tr>
+                    <tr>
+                        <th>Inhabitants:</th><td>25.871</td>
+                    </tr>
+                    <tr>
+                        <th>District:</th><td>Hochtaunuskreis</td>
+                    </tr>
+                    <tr>
+                        <th>Country:</th><td>Hessen/Germany</td>
+                    </tr>
+                    <tr>
+                        <th>Time Zone:</th><td>UTC+2</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="weather">
+                <h2>Weather</h2>
+                <img id="weather-icon" src="images/weather_clouds_sun_sunny_icon.svg" alt="Partly cloudy weather icon" width="100" height="100">
+                <table>
+                    <tr>
+                        <th>Temperature:</th><td id="temperature"></td>
+                    </tr>
+                    <tr>
+                        <th>Conditions:</th><td>Sunny</td>
+                    </tr>
+                    <tr>
+                        <th>Wind:</th><td id="windSpeed"></td>
+                    </tr>
+                    <tr>
+                        <th>Wind Chill:</th><td id="windChill"></td>
+                    </tr>            
+                </table>
+            </div>
+        </picture>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

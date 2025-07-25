@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+    div {
+        position: absolute;
+        margin: 0;
+        padding: 10px;
+        background-color: var(--overlay-bg-color);
+    }
+
+    h2 {
+        background-color: var(--accent-bg-color);
+        text-align: left;
+        padding: 10px;
+        margin: -5px 20px 10px -15px;
+    }
+
+    .weather h2::after {
+        content: " 🌤️";
+        margin-left: 10px;
+    }
+
+    .data {
+        top: 40px;
+        left: 15px;
+        width: 300px;
+        height: auto;
+        z-index: 10;
+    }
+    
+    .weather {
+        bottom: 20px;
+        right: 15px;
+        width: 250px;
+        height: auto;
+        z-index: 10;
+    }
+
+    .weather img {
+        display: none;
+    }
+}
