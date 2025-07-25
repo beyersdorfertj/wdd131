@@ -20,12 +20,14 @@
         <h1>Friedrichsdorf / Germany</h1>
     </header>
     <main>
-        <picture>
-            <source media="(min-width: 1200px)" srcset="images/fdf-large8.webp">
-            <source media="(min-width: 768px)" srcset="images/fdf-medium8.webp">
-            <img src="images/frankfurt-temple-small.webp" alt="Friedrichsdorf Temple in traditional German architecture and green countryside" width="289" height="453">
+        <div class="image-container">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="images/fdf-large8.webp">
+                <source media="(min-width: 768px)" srcset="images/fdf-medium8.webp">
+                <img src="images/frankfurt-temple-small.webp" alt="Friedrichsdorf Temple in traditional German architecture and green countryside" width="289" height="453">
+            </picture>
             
-            <card class="data">
+            <div class="data">
                 <h2>Data</h2>
                 <table>
                     <tr>
@@ -47,9 +49,9 @@
                         <th>Time Zone:</th><td>UTC+2</td>
                     </tr>
                 </table>
-            </card>
+            </div>
 
-            <card class="weather">
+            <div class="weather">
                 <h2>Weather</h2>
                 <img id="weather-icon" src="images/weather_clouds_sun_sunny_icon.svg" alt="Partly cloudy weather icon" width="100" height="100">
                 <table>
@@ -66,8 +68,8 @@
                         <th>Wind Chill:</th><td id="windChill"></td>
                     </tr>            
                 </table>
-            </card>
-        </picture>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>

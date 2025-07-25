@@ -38,11 +38,10 @@ h2 {
     font-size: 2rem;
 }
 
-card {
+div {
     background-color: white;
     color: black;
     margin: 0;
-    padding-bottom: 20px;
 }
 
 .data img,
@@ -53,10 +52,14 @@ card {
     height: 100px;
 }
 
-picture {
+.image-container {
     position: relative;
     display: block;
     overflow: hidden;
+}
+
+picture {
+    display: block;
 }
 
 picture > img {
@@ -65,7 +68,6 @@ picture > img {
     display: block;
     background-color: var(--accent-bg-color);
     padding-top: 20px;
-    margin-bottom: 5px;
 }
 
 
