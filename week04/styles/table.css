@@ -1,0 +1,35 @@
+:root {
+    --caption: black;
+    --border-color: #ccc;
+    --header-background: #f2f2f2;
+}
+
+table {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 5%;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+thead {
+    background-color: var(--caption);
+    color: white;
+    font-size: larger;
+   
+    th:not(:first-child) {
+        background-color: #333;
+    }
+}
+
+th, td {
+    padding: 0.5em 1em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}

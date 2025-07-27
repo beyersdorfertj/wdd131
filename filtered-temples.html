@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Thomas Jörg Beyersdorfer">
+  <link rel="stylesheet" href="styles/filtered-temples.css">
+  <title>WDD 131 - Dynamic Web Fundamentals - Temple Images Album - Jörg Beyersdorfer</title>
+  <meta name="description" content="Interactive LDS Temple gallery showcasing beautiful images of Latter-day Saint temples worldwide. Filter temples by age (old/new) and size (large/small) to explore sacred buildings from different eras and architectural styles. Part of WDD 131 web development coursework by Thomas Jörg Beyersdorfer."/>
+  <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="album-title">Temple Album</h1>
+
+        <a id="menu" href="#" aria-label="Toggle navigation menu"></a>
+        <nav class="navigation">
+            <a href="#" id="filter-no">Home</a>
+            <a href="#" id="filter-old">Old</a>
+            <a href="#" id="filter-new">New</a>
+            <a href="#" id="filter-large">Large</a>
+            <a href="#" id="filter-small">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Temples</h2>
+        <div id="temple-gallery">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

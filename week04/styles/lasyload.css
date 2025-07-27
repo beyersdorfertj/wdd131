@@ -1,0 +1,71 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Center content in a single column */
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Image styling - single column layout */
+img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    animation: fade 5s;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+    margin-top: 40px;
+    border-top: 2px solid #dee2e6;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}   
