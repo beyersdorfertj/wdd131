@@ -1,0 +1,53 @@
+:root{
+  --font-heading: "Merriweather", Georgia, "Times New Roman", serif;
+  --font-body: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  --color1: #b4a497;
+  --color2: #f5b1c3;
+  --color3: #3a73a3;  /* original: #75b1e7 */
+  --color4: #484846;
+}
+
+body {
+  position: relative;
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--color4);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color3);
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+  flex: 1;
+  max-width: 45%;
+}
+
+/* Container for wireframes */
+.wireframes-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.wireframe {
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
