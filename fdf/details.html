@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details - Friedrichsdorf</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/details.css">
+    <script src="scripts/general.js" defer></script>
+    <script src="scripts/details.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="lang-button">
+            <span id="lang-text"></span>
+            <img id="lang-flag" src="" alt="Language Flag">
+        </button>
+        <a id="menu" href="#" aria-label="Toggle navigation menu"></a>
+        <nav class="navigation">
+            <a id="nav-home" href="home.html">Home</a>
+        </nav>
+    </header>
+    
+    <main class="details-main">
+        <div class="details-container">
+            <button id="close-button" class="close-button" aria-label="Close details">
+                <span>&times;</span>
+            </button>
+            
+            <div class="details-header">
+                <h1 id="details-title">Loading...</h1>
+                <div class="details-rating">
+                    <span id="details-stars" class="rating-stars"></span>
+                    <span id="details-rating-value"></span>
+                </div>
+            </div>
+            
+            <div class="details-content">
+                <div class="details-image-section">
+                    <img id="details-image" src="" alt="" loading="lazy">
+                    <div class="details-category">
+                        <span id="details-category-badge"></span>
+                    </div>
+                </div>
+                
+                <div class="details-info">
+                    <div class="details-description">
+                        <p id="details-description"></p>
+                    </div>
+                    
+                    <div class="details-location">
+                        <h3 id="location-title">Location</h3>
+                        <p id="details-location">📍 <span id="location-text"></span></p>
+                    </div>
+                    
+                    <div id="details-facts" class="details-facts">
+                        <h3 id="facts-title">Facts</h3>
+                        <div id="facts-list" class="facts-list">
+                            <!-- Facts will be dynamically loaded here -->
+                        </div>
+                    </div>
+                    
+                    <div class="details-source">
+                        <p><strong id="source-title">Source:</strong> <a id="source-link" href="#" target="_blank" rel="noopener noreferrer"></a></p>
+                    </div>
+                </div>
+                
+                <div id="details-text" class="details-text">
+                    <h3 id="more-info-title">More Information</h3>
+                    <p id="extended-text"></p>
+                </div>
+            </div>
+            
+            <div class="details-actions">
+                <button id="back-to-gallery" class="back-button">
+                    ← <span id="back-text">Back to Gallery</span>
+                </button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,167 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "category": "sightseeing",
+            "title": ["Hardtwald", "Hardt Forest"],
+            "description": ["Schönes Waldgebiet zum Spazieren und Wandern.", "Beautiful forest area for walking and hiking."],
+            "image": ["images/Hardtwald_Herbst.webp", "images/Hardtwald.webp"],
+            "rating": 4.4,
+            "location": ["Hardtwald", "Hardt Forest"],
+            "facts": [
+                {
+                    "title": ["Fläche", "Area"],
+                    "text": ["190 Hektar", "190 hectares"]
+                },
+                {
+                    "title": ["Länge", "Length"],
+                    "text": ["2 Kilometer", "2 kilometers"]
+                },
+                {
+                    "title": ["Breite", "Width"],
+                    "text": ["1,5 Kilometer", "1.5 kilometers"]
+                }
+            ],
+            "text": [
+                "Hardtwald ist der Name eines Waldgebietes zwischen Bad Homburg und Friedrichsdorf-Seulberg im Hochtaunuskreis, Hessen. Der Stadtwald mit etwa 190 Hektar Ausdehnung (von Nord nach Süd etwa zwei Kilometer lang und bis zu eineinhalb Kilometer breit) ist ein Ausläufer des Taunusgebirges. Er ist ein beliebtes Ziel für Spaziergänger, Jogger und Radfahrer. Es gibt zahlreiche Wanderwege und Ruheplätze, die zum Verweilen einladen.",
+                "Hardtwald is the name of a forest area between Bad Homburg and Friedrichsdorf-Seulberg in the Hochtaunus district, Hesse. The municipal forest with an area of about 190 hectares (about two kilometers long from north to south and up to one and a half kilometers wide) is a foothills of the Taunus mountains. It is a popular destination for walkers, joggers and cyclists. There are numerous hiking trails and rest areas that invite you to linger."
+            ]
+        },
+        {
+            "id": 2,
+            "category": "sightseeing",
+            "title": ["Philipp-Reis-Haus", "Friedrichsdorf Castle"],
+            "description": ["Städisches Museum über Philip Reis.", "Municipal museum about Philip Reis."],
+            "image": ["images/PRM_Telefon.webp", "images/PRM.webp"],
+            "rating": 4.5,
+            "location": ["Hugenottenstraße 93"],
+            "facts": [
+                {
+                    "title": ["Baujahr", "Year of Construction"],
+                    "text": ["1854", "1854"]
+                },
+                {
+                    "title": ["Architekt", "Architect"],
+                    "text": ["Johann Georg Schmitt", "Johann Georg Schmitt"]
+                },
+                {
+                    "text": ["Geburtsort von Philipp Reis", "Birthplace of Philipp Reis"]
+                }
+            ],
+            "source": "https://www.museum.de/museen/philipp-reis-haus",
+            "text" : [
+                "Das Jahr 1860 gilt als Geburtsstunde des Telefons. Damals gelang dem Friedrichsdorfer Lehrer und Physiker Philipp Reis erstmals die Übertragung von Sprache über eine größere Distanz. Reis war es auch, der das in alle Weltsprachen eingegangene Kunstwort für die neue Technik kreierte: 'Telephon'. Das 150-jährige Jubiläum der epochalen Erfindung nahm das nach Philipp Reis benannte Städtische Museum Friedrichsdorf zum Anlass, die Geschichte des Fernsprechers seit dessen Verbreitung um 1900 bis zum Gebrauch von Schnurlosen in einer Neupräsentation darzustellen.\nDas Museum zeigt historische Telefone, Dokumente und interaktive Ausstellungen zur Entwicklung der Telefonie.",
+                "The year 1860 is considered the birth of the telephone. At that time, Friedrichsdorf teacher and physicist Philipp Reis succeeded for the first time in transmitting speech over a long distance. Reis also coined the term 'telephone' for the new technology, which has become a household name in every language in the world. The Friedrichsdorf Municipal Museum, named after Philipp Reis, used the 150th anniversary of this groundbreaking invention as an opportunity to present the history of the telephone from its widespread use around 1900 to the use of cordless telephones in a new exhibition. The museum displays historical telephones, documents, and interactive exhibits on the development of telephony."
+            ]
+        },
+        {
+            "id": 3,
+            "category": "sightseeing",
+            "title": ["Tempel", "Temple"],
+            "description": ["Tempel der Kirche Jesu Christi der Heiligen der Letzten Tage", "Temple of the Church of Jesus Christ of Latter-day Saints"],
+            "image": ["images/Tempel_S.webp", "images/Tempel.webp"],
+            "rating": 4.2,
+            "location": ["Talstraße 10", "Talstraße 10"],
+            "facts": [
+                {
+                    "title": ["Weihung", "Dedication"],
+                    "text": ["28. Aug. 1987", "Aug 28, 1987"]
+                },
+                {
+                    "title": ["Größe", "Size"],
+                    "text": ["28 x 98m", "28 x 98m"]
+                },
+                {
+                    "text": ["41. Tempel der Kirche Jesu Christi", "41st temple of the Church of Jesus Christ"]
+                }
+            ],
+            "source": "https://www.churchofjesuschrist.org/temples/details/frankfurt-germany-temple?lang=deu",
+            "text": [ "Der von der Kirche „Jesu Christi der Heiligen der letzten Tage“ (Mormonen) errichtete Tempel wurde 1987 geweiht. Er ist Besucherinnen und Besuchen nicht zugänglich. In dem Gebäude werden die heiligen Handlungen der Mormonen (Siegelung, Belehrung und Taufe bzw. Stellvertretende Taufe) abgehalten. Das Innere des durch seinen modernen Baustil auffallenden Gebäudes ist in zwei Stockwerke und zahlreiche kleinere Räume aufgegliedert.<br>Einen Eindruck vom Inneren des Tempels können Sie bei Interesse im Besucherzentrum erhalten. Es werden zudem von den Mormonen Tempelplatzführungen angeboten (nach Vereinbarung – Telefon 06172 5900450).",
+                "The temple built by the Church of Jesus Christ of Latter-day Saints (Mormons) was dedicated in 1987. It is not accessible to visitors. The building is used for the sacred rites of the Mormons (sealing, instruction, and baptism or proxy baptism). The interior of the strikingly modern building is divided into two floors and numerous smaller rooms.<br>If you are interested, you can get an impression of the interior of the temple at the visitor center. The Mormons also offer temple grounds tours (by appointment - phone 06172 5900450)."
+            ]
+        },
+        {
+            "id": 4,
+            "category": "sport",
+            "title": ["Kletterwald", "Climbing Forest"],
+            "description": ["Ein Abenteuerpark mit Kletterelementen in den Bäumen.", "An adventure park with climbing elements in the trees."],
+            "image": ["images/Kletterwald_S.webp", "images/Kletterwald.webp"],
+            "rating": 4.7,
+            "location": ["Landwehrstrasse 71", "Landwehrstrasse 71"],
+            "source": "https://kletterwald-taunus.de/"
+        },
+        {
+            "id": 5,
+            "category": "sport",
+            "title": ["Freibad", "Outdoor Pool"],
+            "description": ["Ein Freibad mit großzügigen Liegewiesen und Sportangeboten.", "An outdoor pool with spacious sunbathing areas and sports facilities."],
+            "image": ["images/Freibad_S.webp", "images/Freibad.webp"],
+            "rating": 4.0,
+            "location": ["Dr.-Friedrich-Neiß-Straße 2", "Dr.-Friedrich-Neiß-Straße 2"],
+            "source": "https://www.friedrichsdorf.de/freizeit-und-kultur/sport/freibad",
+            "facts":[
+                {
+                    "title": ["Öffnungszeiten", "Opening Hours"],
+                    "text": ["Mitte Mai bis Mitte September", "Mid-May to mid-September"]
+                },
+                {
+                    "title": ["Wassertemperatur", "Water Temperature"],
+                    "text": ["24°C", "75°F"]
+                },
+                {
+                    "title": ["Größe", "Size"],
+                    "text": ["25.000 qm", "25.000 qm"]
+                },
+                {
+                    "text": ["beheizt", "heated"]
+                }
+            ],
+            "text": [
+                "Das Freibad Friedrichsdorf ist ein beliebtes Ziel für Familien und Sportbegeisterte. Es bietet großzügige Liegewiesen, ein Schwimmerbecken, ein Nichtschwimmerbecken und ein Kinderbecken. Zudem gibt es Sportmöglichkeiten wie Beachvolleyball und Tischtennis. Das Freibad ist von Mitte Mai bis Mitte September geöffnet und bietet eine angenehme Wassertemperatur von 24°C.",
+                "The Friedrichsdorf outdoor pool is a popular destination for families and sports enthusiasts. It features spacious sunbathing areas, a swimming pool, a non-swimming pool, and a children's pool. Additionally, there are sports facilities such as beach volleyball and table tennis. The outdoor pool is open from mid-May to mid-September and offers a pleasant water temperature of 24°C."
+            ]
+        },
+        {
+            "id": 6,
+            "category": "sport",
+            "title": ["Sportpark", "Sport Park"],
+            "description": ["Der Sportpark lädt zu Bewegung und Spiel an der frischen Luft ein.", "The sports park invites you to exercise and play in the fresh air."],
+            "image": ["images/Sportpark_s.webp", "images/Sportpark.webp"],
+            "rating": 4.3,
+            "location": ["Edouard-Desor-Straße 1", "Edouard-Desor-Straße 1"],
+            "source": "https://www.friedrichsdorf.de/freizeit-und-kultur/sport/sportpark-friedrichsdorf",
+            "text": [
+                "Rollsportanlage, Kunstrasenplatz, 400-m-Laufbahn, Naturrasenplatz, Leichtathletikanlagen, Basketballkörbe, Beachvolleyballfelder, Fun-Box, Skatepark, Seilzirkus, und vieles mehr.",
+                "Roller sports facility, artificial turf pitch, 400m running track, natural grass pitch, athletics facilities, basketball hoops, beach volleyball courts, fun box, skate park, rope circus, and much more."
+            ]
+        },
+        {
+            "id": 7,
+            "category": "shopping",
+            "title": ["TaunusCarree", "TaunusCarree"],
+            "description": ["Großes Einkaufszentrum mit vielfältigem Angebot.", "Large shopping center with diverse offerings."],
+            "image": ["images/Taunuskarree.webp", "images/Taunuskarree2.webp"],
+            "rating": 4.1,
+            "location": ["Wilhelmstraße 23", "Wilhelmstraße 23"],
+            "source": "https://ekz-taunus-carre.de/",
+            "text": [
+                "Mit einer perfekten Verkehrsanbindung und optimaler Stadtrandlage ist das  Taunus Carré sehr gut erreichbar. Es gibt 450 kostenlosen Parkplätze und in über 28 Fachgeschäften findet man alles für den täglichen Bedarf.",
+                "With perfect transport connections and an optimal location on the outskirts of the city, Taunus Carré is very easy to reach. There are 450 free parking spaces and over 28 specialty shops offer everything you need for your daily needs."
+            ]
+        },
+        {
+            "id": 8,
+            "category": "shopping",
+            "title": ["Baumarkt", "DIY Store"],
+            "description": ["Großer Baumarkt mit umfangreichem Sortiment.", "Large DIY store with a wide range of products."],
+            "image": ["images/Toom.jpeg", "images/Toom.webp"],
+            "rating": 4.1,
+            "location": ["Max-Planck-Straße 1", "Max-Planck-Straße 1"],
+            "source": "https://toom.de/m/friedrichsdorf",
+            "text": [
+                "Ein großer Baumarkt mit umfangreichem Sortiment für Haus, Garten und Hobby. Hier finden Sie alles für Renovierungsarbeiten, Gartengestaltung und handwerkliche Projekte. Von Werkzeugen über Baumaterialien bis hin zu Gartenpflanzen - der Baumarkt bietet eine große Auswahl zu fairen Preisen. Kompetente Beratung und praktische Services wie Mietgeräte und Zuschnittservice runden das Angebot ab.",
+                "A large DIY store with an extensive range for home, garden and hobby needs. Here you'll find everything for renovation work, garden design and craft projects. From tools to building materials to garden plants - the DIY store offers a wide selection at fair prices. Expert advice and practical services such as rental equipment and cutting service complete the offering."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="scripts/general.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="lang-button">
+            <span id="lang-text"></span>
+            <img id="lang-flag" src="" alt="Language Flag">
+        </button>
+        <a id="menu" href="#" aria-label="Toggle navigation menu"></a>
+        <nav class="navigation">
+            <a id="nav-all" href="#">All</a>
+            <a id="nav-sightseeing" href="#">Sightseeing</a>
+            <a id="nav-sport" href="#">Sport</a>
+            <a id="nav-shopping" href="#">Shopping</a>
+        </nav>
+    </header>
+    <main>
+        <div class="title-section">
+            <h1 id="main-title">Friedrichsdorf</h1>
+            <img id="city-logo" src="images/friedrichsdorf_logo.svg" alt="Friedrichsdorf Logo">
+        </div>
+        <div class="image-container">
+            <picture>
+                <source media="(min-width: 600px)" srcset="images/Friedrichsdorf.webp">
+                <img src="images/Friedrichsdorf_S.webp" alt="" loading="lazy">
+            </picture>
+            <div id="data">
+            </div>
+            <div id="weather">
+            </div>
+        </div>
+        <div id="content">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Friedrichsdorf</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <script src="scripts/general.js" defer></script>
+    <script src="scripts/gallery.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="lang-button">
+            <span id="lang-text"></span>
+            <img id="lang-flag" src="" alt="Language Flag">
+        </button>
+        <a id="menu" href="#" aria-label="Toggle navigation menu"></a>
+        <nav class="navigation">
+            <a id="nav-home" href="home.html">Home</a>
+            <a id="nav-all" href="gallery.html">All</a>
+            <a id="nav-sightseeing" href="gallery.html?filter=sightseeing">Sightseeing</a>
+            <a id="nav-sport" href="gallery.html?filter=sport">Sport</a>
+            <a id="nav-shopping" href="gallery.html?filter=shopping">Shopping</a>
+        </nav>
+    </header>
+    <main>
+        <div class="title-section">
+            <h1 id="gallery-title">Gallery</h1>
+            <img id="city-logo" src="images/friedrichsdorf_logo.svg" alt="Friedrichsdorf Logo">
+        </div>
+        
+        <div class="filter-info">
+            <p id="filter-display">Showing all items</p>
+        </div>
+
+        <section id="gallery-grid" class="gallery-grid">
+            <!-- Cards will be dynamically loaded here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
