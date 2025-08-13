@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Thomas Jörg Beyersdorfer">
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-large.css">
+  <title>WDD 131 - Dynamic Web Fundamentals - Temples - Jörg Beyersdorfer</title>
+  <meta name="description" content="Interactive LDS Temple gallery showcasing beautiful images of Latter-day Saint temples worldwide. Filter temples by age (old/new) and size (large/small) to explore sacred buildings from different eras and architectural styles. Part of WDD 131 web development coursework by Thomas Jörg Beyersdorfer."/>
+  <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <p id="album-title">Temple Album</p>
+
+        <a id="menu" href="#" aria-label="Toggle navigation menu"></a>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+        <div id="temple-gallery">
+        <figure>
+            <img src="images/frankfurt_temple.webp" alt="Frankfurt Temple with white spires and modern architecture" loading="lazy">
+            <figcaption>Frankfurt Temple</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/freiberg_temple.webp" alt="Freiberg Temple featuring classical stone architecture" loading="lazy">
+            <figcaption>Freiberg Temple</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/den_haag_temple.webp" alt="Den Haag Temple with distinctive curved roof design" loading="lazy">
+            <figcaption>Den Haag Temple</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/salt_lake_temple.webp" alt="Salt Lake Temple with six granite spires and historic architecture" loading="lazy">
+            <figcaption>Salt Lake Temple</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/nauvoo_temple.webp" alt="Nauvoo Temple with limestone exterior and ornate windows" loading="lazy">
+            <figcaption>Nauvoo Temple</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/payson_temple.webp" alt="Payson Temple with red sandstone walls and golden spire" loading="lazy">
+            <figcaption>Payson Temple</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/provo_temple.webp" alt="Provo Temple with white exterior and single central spire" loading="lazy">
+            <figcaption>Provo Temple</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/logan_temple.webp" alt="Logan Temple with castle-like limestone architecture and multiple towers" loading="lazy">
+            <figcaption>Logan Temple</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/manti_temple.webp" alt="Manti Temple with distinctive oolitic limestone and twin towers" loading="lazy">
+            <figcaption>Manti Temple</figcaption>
+        </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> - Thomas Jörg Beyersdorfer - Germany</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
