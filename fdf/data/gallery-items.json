@@ -30,7 +30,7 @@
         {
             "id": 2,
             "category": "sightseeing",
-            "title": ["Philipp-Reis-Haus", "Friedrichsdorf Castle"],
+            "title": ["Philipp-Reis-Haus", "Philipp-Reis-Building"],
             "description": ["Städisches Museum über Philip Reis.", "Municipal museum about Philip Reis."],
             "image": ["images/PRM_Telefon.webp", "images/PRM.webp"],
             "rating": 4.5,
